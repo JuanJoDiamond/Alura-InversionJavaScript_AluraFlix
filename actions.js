@@ -11,7 +11,7 @@ var listaNombres = [
     "Conan el Bárbaro",
     "Predator",
     "Terminator - 2",
-    "Commando"
+    "Commando."
 ];
 
 // Array (arreglo) de enlaces a los trailers de las películas
