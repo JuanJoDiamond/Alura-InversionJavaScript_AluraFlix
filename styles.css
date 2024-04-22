@@ -1,0 +1,122 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://besthqwallpapers.com/Uploads/1-4-2018/46865/thumb2-terminator-4k-superheroes-art-arnold-schwarzenegger.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    /* background-repeat: no-repeat; */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.page-title {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.page-subtitle {
+    color: #e28484;
+    margin-top: 5px;
+    text-shadow: 3px 3px 2px #000;
+}
+
+.page-logo {
+    width: 170px;
+}
+
+.alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    height: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copyright {
+    color: aliceblue;
+}
+
+.linked:hover {
+    color: var(--Font);
+    opacity: 0.8;
+}
+
+.gitHub:hover {
+    color: var(--Font);
+    opacity: 0.6;
+}
+
+.imgFilme:hover {
+    transform: scale(1.1);
+}
+
+.imgFilme {
+    border-radius: 9px;
+}
+
+.container_todosFilmes {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_filme {
+    margin: 20px;
+    padding: 2%;
+    display: block;
+    max-width: 30%;
+}
+
+.titulo_filme{
+    color: #8f8989;
+    text-shadow: 3px 3px 2px #000;
+    background-color: rgba(0, 0, 0, 0.5);    
+    padding: 15px;
+    max-width: 100%;
+    text-align: center; 
+    background-position: center ;
+}
+
+.linkTrailer {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: rgb(67, 65, 65);
+    background-color: black;
+    padding: 5px 15px;
+    border: 2px solid ;
+}
+
+.linkTrailer:hover {
+    color: gray;
+    border-color: red;
+    background-color: #333;
+}
