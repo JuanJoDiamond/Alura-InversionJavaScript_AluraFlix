@@ -10,7 +10,7 @@ var listaPelis = [
 var listaNombres = [
     "Conan el Bárbaro",
     "Predator",
-    "Terminator 2",
+    "Terminator - 2",
     "Commando"
 ];
 
